@@ -1,7 +1,7 @@
-getElementById("toughness").onchange= function(status){if (getElementById("toughness").value<=0){
- status=dead;
+getElementById("toughness").onchange= function(){if (getElementById("toughness").value<=0){
+ getElementById("status")=dead;
  return status;
 }else{
- status = alive;   
+ getElementById("status") = alive;   
  return status;}
 }
