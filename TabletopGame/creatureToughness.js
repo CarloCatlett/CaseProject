@@ -1,5 +1,5 @@
 if (getElementById("toughness").value<=0){
- var status = "Dead"; 
+ getElementById("status").value = "Dead"; 
 }else{
- status = "Alive";
+ getElementById("status").value = "Alive";
 }
