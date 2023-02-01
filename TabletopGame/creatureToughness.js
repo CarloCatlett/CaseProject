@@ -1,5 +1,5 @@
-getElementById("toughness").onchange=if (getElementById("toughness").value<=0){
- getElementById("status").placeholder ="dead";
+document.getElementById("toughness").onchange=if document.getElementById("toughness").value<=0){
+ document.getElementById("status").placeholder ="dead";
 }else{
- getElementById("status").placeholder= "alive";   
+ document.getElementById("status").placeholder= "alive";   
 }
