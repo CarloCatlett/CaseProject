@@ -1,6 +1,6 @@
-document.getElementById("toughness").onchange= function(){if document.getElementById("toughness").value<=0){
- document.getElementById("status").placeholder ="dead";
+document.getElementById("toughness").onchange= function(){var life; if document.getElementById("toughness").value<=0){
+ life=document.getElementById("status").placeholder ="dead";
 }else{
- document.getElementById("status").placeholder= "alive";   
+ life = document.getElementById("status").placeholder= "alive";   
 }
-                                                         }
+                           return life;                   }
