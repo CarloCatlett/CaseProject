@@ -15,7 +15,7 @@ var htmlCode = "";
 
 for(let i=0; i<=13; i++)
 {
-     htmlCode+= "document.write("captions[i]")<br>";
+     htmlCode+= "<p> "captions[i]"</p>";
 }
 
 document.getElementById("gallery").innerHTML = htmlCode;
