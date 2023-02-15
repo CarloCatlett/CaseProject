@@ -3,7 +3,7 @@ i will need to request images, for the time being
 these are just placeholders
 */
 
-let captions = mew Array(6);
+let captions = new Array(6);
 captions[0]="PLACEHOLDER-1";
 captions[1]="PLACEHOLDER-2";
 captions[2]="PLACEHOLDER-3";
