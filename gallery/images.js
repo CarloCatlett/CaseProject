@@ -13,7 +13,7 @@ captions[5]="PLACEHOLDER-6";
 
 var htmlCode = "";
 
-for(let i=0; i<=6; i++)
+for(let i=0; i<6; i++)
 {
      htmlCode+="<p>"+captions[i]+"</p>";
 }
