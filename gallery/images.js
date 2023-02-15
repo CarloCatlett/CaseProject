@@ -4,12 +4,12 @@ these are just placeholders
 */
 
 let captions = mew Array(6);
-captions[0]="PLACEHOLDER";
-captions[1]="PLACEHOLDER";
-captions[2]="PLACEHOLDER";
-captions[3]="PLACEHOLDER";
-captions[4]="PLACEHOLDER";
-captions[5]="PLACEHOLDER";
+captions[0]="PLACEHOLDER-1";
+captions[1]="PLACEHOLDER-2";
+captions[2]="PLACEHOLDER-3";
+captions[3]="PLACEHOLDER-4";
+captions[4]="PLACEHOLDER-5";
+captions[5]="PLACEHOLDER-6";
 
 var htmlCode = "";
 
