@@ -15,7 +15,7 @@ var htmlCode = "";
 
 for(let i=0; i<=13; i++)
 {
-     htmlCode+="<figure> <img alt=''src ='image"+i+".jpg' /> <figcaption>"+captions[i]+"</figcaption> </figure>";
+     htmlCode+="<figure> <figcaption>"+captions[i]+"</figcaption> </figure>";
 }
 
 document.getElementById("gallery").innerHTML = htmlCode;
