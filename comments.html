@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Comment Page</title>
+</head>
+<body>
+	<h1>Leave a comment:</h1>
+	<textarea id="comment" rows="4" cols="50"></textarea>
+	<br><br>
+	<button onclick="submitComment()">Submit</button>
+	<p id="error-msg"></p>
+	<script>
+		function submitComment() {
+			let comment = document.getElementById("comment").value;
+			if (comment.length > 100) {
+				document.getElementById("error-msg").innerHTML = "Error: Comment exceeds 100 characters.";
+			} else {
+				document.getElementById("error-msg").innerHTML = "";
+				document.getElementById("comment").value = "";
+				let commentDiv = document.createElement("div");
+				commentDiv.innerHTML = comment;
+				document.body.appendChild(commentDiv);
+			}
+		}
+	</script>
+</body>
+</html>
