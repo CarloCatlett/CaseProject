@@ -2,14 +2,21 @@
 i will need to request images, for the time being
 these are just placeholders
 */
-
+let images = new Array(6);
 let captions = new Array(6);
-captions[0]="https://picsum.photos/200";
-captions[1]="https://picsum.photos/200";
-captions[2]="https://picsum.photos/200";
-captions[3]="https://picsum.photos/200";
-captions[4]="https://picsum.photos/200";
-captions[5]="https://picsum.photos/200";
+captions[0]="Placeholder-01";
+captions[1]="Placeholder-02";
+captions[2]="Placeholder-03";
+captions[3]="Placeholder-04";
+captions[4]="Placeholder-05";
+captions[5]="Placeholder-06";
+
+images[0]=img.src='https://picsum.photos/200'
+images[1]=img.src='https://picsum.photos/200'
+images[2]=img.src='https://picsum.photos/200'
+images[3]=img.src='https://picsum.photos/200'
+images[4]=img.src='https://picsum.photos/200'
+images[5]=img.src='https://picsum.photos/200'
 
 var htmlCode = "";
 
