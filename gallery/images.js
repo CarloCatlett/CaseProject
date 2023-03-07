@@ -22,7 +22,7 @@ var htmlCode = "";
 
 for(let i=0; i<6; i++)
 {
-     htmlCode+="img.src="+images[i]+<p>"+captions[i]+"</p>";
+     htmlCode+="<img src=""+images[i]+"">"+"<p>"+captions[i]+"</p>";
 }
 
 document.getElementById("gallery").innerHTML = htmlCode;
