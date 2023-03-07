@@ -22,7 +22,7 @@ var htmlCode = "";
 
 for(let i=0; i<6; i++)
 {
-     htmlCode+="<img src=""+images[i]+"">";
+     htmlCode+="<img src="+images[i]+">";
      htmlCode+="<p>"+captions[i]+"</p>";
 }
 
