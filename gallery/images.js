@@ -11,12 +11,12 @@ captions[3]="Placeholder-04";
 captions[4]="Placeholder-05";
 captions[5]="Placeholder-06";
 
-images[0]='https://picsum.photos/200';
-images[1]='https://picsum.photos/200';
-images[2]='https://picsum.photos/200';
-images[3]='https://picsum.photos/200';
-images[4]='https://picsum.photos/200';
-images[5]='https://picsum.photos/200';
+images[0]='https://picsum.photos/201';
+images[1]='https://picsum.photos/202';
+images[2]='https://picsum.photos/203';
+images[3]='https://picsum.photos/204';
+images[4]='https://picsum.photos/205';
+images[5]='https://picsum.photos/206';
 
 var htmlCode = "";
 
