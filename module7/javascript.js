@@ -16,4 +16,4 @@ for (var i = 0; i < links.length; i++) {
   localStorage.setItem(href, Date.now());
 }
 
-localStorage.setItem("sbloggerVisit", Date.now());
+localStorage.setItem("lastVisitDate", Date.now());
