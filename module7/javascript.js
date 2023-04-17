@@ -1,19 +1,10 @@
-var lastVisit = localStorage.getItem("lastVisitDate");
+var lastVisit = localStorage.getItem("sbloggerVisit");
 
 if (lastVisit === null) {
-  lastVisit = 0;
+  lastVisit = "Welcome!";
+} else {
+  lastVisit = new Date(parseInt(lastVisit)).toLocaleString();
 }
 
-var links = document.getElementsByTagName("a");
-for (var i = 0; i < links.length; i++) {
-  var href = links[i].getAttribute("href");
-  var date = localStorage.getItem(href);
+document.getElementById("lastVisitDate").innerHTML = "Your last visit: " + lastVisit;
 
-  if (date !== null && date > lastVisit) {
-    links[i].innerHTML += " (New)";
-  }
-
-  localStorage.setItem(href, Date.now());
-}
-
-localStorage.setItem("lastVisitDate", Date.now());
