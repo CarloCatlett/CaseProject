@@ -1,4 +1,4 @@
-var lastVisit = localStorage.getItem("sbloggerVisit");
+var lastVisit = localStorage.getItem("lastVisitDate");
 
 if (lastVisit === null) {
   lastVisit = 0;
